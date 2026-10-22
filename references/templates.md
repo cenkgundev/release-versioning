@@ -5,7 +5,8 @@
 ```markdown
 # Versioning
 
-Version = MAJOR.MINOR.PATCH, approved per release. Build = one increasing counter per app, +1 on every upload.
+Version = MAJOR.MINOR.PATCH, approved per release. Build = one increasing counter, +1 on every upload.
+One section per release channel (store, registry, download, deploy). Drop the build rows where the channel has none.
 
 ## iOS (com.example.app)
 
@@ -14,6 +15,13 @@ Version = MAJOR.MINOR.PATCH, approved per release. Build = one increasing counte
 | Live | 1.3.0 (165) |
 | In review | 1.3.1 (167) |
 | Last uploaded build | 167 |
+
+## npm (@example/sdk)
+
+| | |
+|---|---|
+| Latest | 2.4.0 |
+| Next tag | 2.5.0-beta.1 (beta) |
 
 ## Android (com.example.app)
 
