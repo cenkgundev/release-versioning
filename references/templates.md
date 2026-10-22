@@ -1,0 +1,50 @@
+# Templates
+
+## VERSIONING.md
+
+```markdown
+# Versioning
+
+Version = MAJOR.MINOR.PATCH, approved per release. Build = one increasing counter per app, +1 on every upload.
+
+## iOS (com.example.app)
+
+| | |
+|---|---|
+| Live | 1.3.0 (165) |
+| In review | 1.3.1 (167) |
+| Last uploaded build | 167 |
+
+## Android (com.example.app)
+
+| | |
+|---|---|
+| Live | 1.3.0 (40) |
+| In review | — |
+| Last uploaded build | 41 |
+
+## History
+
+| Date | Platform | Version (build) | Where | Note |
+|---|---|---|---|---|
+| 2026-10-22 | iOS | 1.3.1 (167) | App Store review | playback crash fix |
+| 2026-10-20 | iOS | 1.3.1 (166) | TestFlight | |
+```
+
+## CHANGELOG.md
+
+```markdown
+# Changelog
+
+## [Unreleased]
+
+## [1.3.1] - 2026-10-22
+### Fixed
+- Playback no longer stops when the screen locks
+
+## [1.3.0] - 2026-10-10
+### Added
+- Favorites and search
+```
+
+Sections: Added, Changed, Fixed, Removed. Leave out empty ones.
