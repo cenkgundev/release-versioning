@@ -1,5 +1,5 @@
 ---
-name: app-versioning
+name: release-versioning
 description: Decide and apply version numbers (1.0.0 → 1.0.1 / 1.1.0 / 2.0.0) and build numbers for any software project — mobile apps (iOS, Android, Flutter, React Native/Expo, .NET MAUI), desktop apps (macOS, Windows, Electron, Tauri), web apps and backend services, libraries and SDKs (npm, PyPI, crates.io, Maven, NuGet, Go modules), CLIs, browser extensions and games. Use whenever a test build, beta, store submission, package publish, deploy release, hotfix or rejection resubmit is being prepared; whenever a version or build field would change (MARKETING_VERSION, CURRENT_PROJECT_VERSION, versionName, versionCode, package.json/Cargo.toml/pyproject version, pubspec version, csproj Version, manifest version); and whenever the user asks which version to use, to bump a version or build number, "1.0.1 or 1.1.0?" (in any language), or about release tags or a changelog. Also use before archiving, uploading, publishing or tagging any release, even if versioning isn't mentioned, so numbers never move ad hoc.
 ---
 

@@ -1,4 +1,4 @@
-# app-versioning
+# release-versioning
 
 An agent skill for versioning software releases. It decides between `1.0.1`, `1.1.0` and `2.0.0`, manages build numbers, and keeps the release record, so versions don't creep up with every test build.
 
@@ -30,16 +30,16 @@ The helper script reads and edits: Xcode `project.pbxproj`, XcodeGen `project.ym
 With the [skills CLI](https://github.com/vercel-labs/skills), which links the skill into each agent it detects:
 
 ```bash
-npx skills add cenkgundev/app-versioning -g      # all projects
-npx skills add cenkgundev/app-versioning         # current project only
+npx skills add cenkgundev/release-versioning -g      # all projects
+npx skills add cenkgundev/release-versioning         # current project only
 ```
 
 Or by hand: clone it once and link it into your agent's skills folder.
 
 ```bash
-git clone https://github.com/cenkgundev/app-versioning.git ~/skills/app-versioning
-ln -s ~/skills/app-versioning ~/.claude/skills/app-versioning   # Claude Code
-ln -s ~/skills/app-versioning ~/.agents/skills/app-versioning   # Codex and other .agents readers
+git clone https://github.com/cenkgundev/release-versioning.git ~/skills/release-versioning
+ln -s ~/skills/release-versioning ~/.claude/skills/release-versioning   # Claude Code
+ln -s ~/skills/release-versioning ~/.agents/skills/release-versioning   # Codex and other .agents readers
 ```
 
 Skill folder locations differ between agents and versions, so check your agent's docs. Common ones are `~/.claude/skills`, `~/.agents/skills`, `~/.codex/skills`, `~/.gemini/skills`, `~/.cursor/skills` and `~/.copilot/skills`, plus the same paths inside a project.
@@ -51,7 +51,7 @@ Add this to the project's `AGENTS.md` (or the agent's rules file):
 ```markdown
 ## Versioning
 Before changing any version or build number, tagging or publishing a release,
-read and follow ~/skills/app-versioning/SKILL.md.
+read and follow ~/skills/release-versioning/SKILL.md.
 ```
 
 ## Usage
